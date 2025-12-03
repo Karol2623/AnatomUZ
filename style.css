@@ -1,0 +1,143 @@
+/* === Umumiy sayt dizayni === */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d121d;    /* Saytning to‘q qoramtir foni */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* === HEADER / NAVBAR === */
+.top-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 25px;
+    background-color: #141923;    /* Biodigitalga yaqin nav fon */
+    border-bottom: 1px solid #2a3140;
+    box-sizing: border-box;
+}
+
+/* Logo uchun bo‘sh joy (kerak bo‘lsa rasm qo‘yiladi) */
+.top-nav img {
+    height: 45px;
+    width: auto;
+}
+
+/* Linklar joylashuvi */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* === Navigatsiya linklari === */
+.nav-link {
+    color: #d3d7df;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 4px;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* Sahifa bo‘limlari */
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+/* Kontent bo‘limi */
+.content {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Pastki bo‘limlar fon rangiga mos ravishda */
+.section {
+    background-color: #0f1623;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+img {
+    background-color: #0d121d;   /* Sayt foniga mos */
+    padding: 5px;
+    border-radius: 8px;
+}
+/* === Card konteyneri === */
+.card {
+    width: 350px;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #0f1623;   /* dark-mode fon */
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effekti */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* === Rasm qismi === */
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+
+    /* Rasm oq fon bilan chiqsada, qorong‘i saytda yo'qolmasligi uchun */
+    background-color: #0d121d;
+    mix-blend-mode: multiply;
+}
+
+/* === Matn bo‘limi === */
+.card-body {
+    padding: 20px;
+}
+
+/* Sarlavha */
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+
+/* Pastki matn */
+.card-text {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* === Cards joylashuvi === */
+.card-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    justify-content: center;
+}
+.yangi-container {
+    display: flex;
+    justify-content: center;
+}
+ 
+.sitenav-list {
+    list-style: none;
+}
+.sitenav-link {
+    font-family: Bebas neue, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+color:#fff
+
+
+
+}
