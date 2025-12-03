@@ -137,7 +137,14 @@ img {
 text-decoration: none;
 text-transform: uppercase;
 color:#fff
-
-
-
+}
+.center-text {
+    width: 100%;
+    height: 60vh; /* sahifaning 60% balandligi */
+    display: flex;
+    justify-content: center;  /* o‘ng-chap bo‘yicha o‘rtaga */
+    align-items: center;       /* yuqori-past bo‘yicha o‘rtaga */
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
 }
